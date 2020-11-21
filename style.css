@@ -62,8 +62,6 @@ body::-webkit-scrollbar {
     text-decoration: none;
     letter-spacing: 2px;
     border-radius: 10px;
-    /* transition gives the animation affect */
-    /* not working after every refresh!!! fix it */
     transition: 0.5s;
 }
 .btn:hover {
@@ -80,7 +78,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     transition: 0.5s;
 }
 
