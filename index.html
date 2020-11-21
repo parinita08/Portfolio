@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header seciton -->
+    <header>
+        <a href="#" class="logo">Portfolio<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Banner section -->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Parinita  Vedantam</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo laudantium aperiam excepturi hic asperiores iste, consectetur sed adipisci porro alias quidem? Quisquam, assumenda? Accusamus quia dignissimos eum odit, aliquam quidem accusantium reiciendis numquam quod quam nobis quaerat facilis dicta eius eligendi alias aperiam iste quibusdam tempore expedita. Voluptatem, dolore?</p>
+            <a href="#work" class="btn">Work</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio amet nam consequuntur provident eius mollitia sequi nisi, in exercitationem aliquam quibusdam ipsam saepe, delectus aliquid iste aut placeat. Dignissimos, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis asperiores ab tempore deserunt dolore accusamus incidunt Dignissimos, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis asperiores ab tempore deserunt dolore accusamus incidunt explicabo, eos impedit! <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt dolorum, perspiciatis corporis animi illum placeat consectetur deserunt optio tenetur nam quos, odit voluptatem nemo doloribus similique iste. Earum, maiores saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt dolorum, perspiciatis corporis animi illum placeat consectetur deserunt optio tenetur nam quos, odit voluptatem nemo doloribus similique iste. Earum, maiores saepe!</p>
+            </div>
+            <div class="col50">
+                <div class="imgBox">
+                    <img src="img/profile.jpg" alt="img1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section class="work" id="work">
+        <div class="title">
+            <h2 class="titleText"><span>W</span>ork</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, earum? Debitis nesciunt earum mollitia illum voluptates porro, consectetur provident omnis.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/work1.jpg" alt="1">
+                </div>
+                <div class="text">
+                    <h3>Project 1</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/work2.jpg" alt="1">
+                </div>
+                <div class="text">
+                    <h3>Project 2</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/work3.jpg" alt="1">
+                </div>
+                <div class="text">
+                    <h3>Project 3</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/work4.jpg" alt="1">
+                </div>
+                <div class="text">
+                    <h3>Project 4</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/work5.jpg" alt="1">
+                </div>
+                <div class="text">
+                    <h3>Project 5</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/work6.jpg" alt="1">
+                </div>
+                <div class="text">
+                    <h3>Project 6</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, officia maiores aliquid magni alias beatae!</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Name"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="cpText">
+        <p>Copyright &copy; 2020 | All Rights Reserved</p>
+    </div>
+
+    <!-- JS snippet for the pages scrolling -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
